@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.stock {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: "IBM Plex Sans", serif;
+}
+
+.title {
+  color: rgb(26, 30, 41);
+  font-family: IBM Plex Sans;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+}
+
+.promotion-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.promotion-card {
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  background: #fff;
+}
+
+.promotion-card:hover {
+  transform: translateY(-5px);
+}
+
+.image {
+  width: 100%;
+  height: 150px;
+  background: #f0f0f0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  max-width: 100%;
+  height: auto;
+}
+
+.promo-title {
+  color: rgb(26, 30, 41);
+  font-family: IBM Plex Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.categories {
+  margin: 0 16px 8px;
+}
+
+.category {
+  display: inline-block;
+  color: rgb(255, 126, 0);
+  font-family: IBM Plex Sans;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 16px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  margin-right: 8px;
+  border-radius: 2px;
+  background: rgb(255, 233, 213);
+}
+
+.icon {
+  color: rgb(106, 106, 106);
+  font-family: IBM Plex Sans;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.expiration {
+  color: rgb(26, 30, 41);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  margin: 0 16px 16px;
+}
+
+.view-all {
+  display: block;
+  margin: 20px auto;
+  padding: 12px 24px;
+  background-color: #ff6600;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.view-all:hover {
+  background-color: #e55a00;
+}
