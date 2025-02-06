@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.footer {
+  background-color: #fff;
+  padding: 40px 20px;
+  border-top: 2px solid #000;
+  font-family: "IBM Plex Sans", serif;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.footer-column {
+  flex: 1;
+  margin: 56px 50px;
+}
+
+.footer-column h3 {
+  color: #FF7E00;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column ul li {
+  margin: 16px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer-center {
+  text-align: center;
+  margin: 0 145px;
+}
+
+.footer-logo {
+  width: 112.85px;
+  height: 118px;
+  margin-bottom: 17px;
+}
+
+.footer-phone {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.freeCall {
+  margin: 4px 0 16px 0;
+}
+
+.social-title {
+  margin: 32px 0;
+}
+
+.callback-btn {
+  background: #FFFFFF;
+  color: #FF7E00;
+  border: none;
+  padding: 12px 15px;
+  cursor: pointer;
+  border: 1px solid rgb(239, 216, 195);
+  border-radius: 2px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 20px;
+}

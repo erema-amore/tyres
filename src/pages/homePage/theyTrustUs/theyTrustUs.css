@@ -1,0 +1,38 @@
+.they-trust-us {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+}
+
+.logo-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.logo-item {
+  flex: 1 1 calc(16.66% - 20px);
+  max-width: calc(16.66% - 20px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-item img {
+  max-width: 100%;
+  height: auto;
+  filter: grayscale(80%);
+  transition: filter 0.3s ease;
+}
+
+.logo-item img:hover {
+  filter: grayscale(0%);
+}
