@@ -1,5 +1,6 @@
 
 import './App.css';
+import Registration from './pages/registration/Registration';
 
 
 
@@ -9,7 +10,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-     
+
     </div>
   );
 }
