@@ -1,4 +1,8 @@
 import React from 'react'
+import classes from './AllClasses.css'
+import { NavLink, Link } from "react-router-dom";
+ 
+
 
 const Admin = () => {
 
@@ -6,10 +10,10 @@ const Admin = () => {
   return (
     <div>
         <h2 className='txt'>АДМИНКА</h2>
-        <div className='box'>Добавить тавар</div>
-        <div className='box'>Добавить новасть</div>
-        <div className='box'>Заявки</div>
-        <div className='box'>Акции</div>
+        <link className='box'>Добавить тавар</link>
+        <link className='box'>Добавить новасть</link>
+        <link className='box'>Заявки</link>
+        <link className='box'>Акции</link>
     </div>
   )
 }
