@@ -18,13 +18,11 @@ import CatalogInfo from './pages/catalog/CatalogInfo';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      
-      <TireCatalog/>
-      
-      
+
     </div>
   );
 }
