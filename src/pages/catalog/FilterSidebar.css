@@ -1,0 +1,58 @@
+.filter-sidebar {
+  width: 300px;
+  padding: 15px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-family: Arial, sans-serif;
+}
+
+.filter-section {
+  margin-bottom: 15px;
+}
+
+.filter-section label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.filter-section select,
+.filter-section input[type="text"],
+.filter-section input[type="range"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.filter-section input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.filter-section div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.apply-button,
+.reset-button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.apply-button {
+  background-color: orange;
+  color: white;
+}
+
+.reset-button {
+  background-color: gray;
+  color: white;
+}
