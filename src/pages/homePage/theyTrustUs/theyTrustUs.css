@@ -1,5 +1,5 @@
 .they-trust-us {
-  max-width: 1200px;
+  max-width: 1440px;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
@@ -11,28 +11,35 @@
   margin-bottom: 24px;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px; 
+}
+
+.active-logo {
+  max-width: 200px; 
+  height: auto;
+  transition: opacity 0.5s ease-in-out;
+}
+
 .logo-grid {
   display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  gap: 20px;
-}
-
-.logo-item {
-  flex: 1 1 calc(16.66% - 20px);
-  max-width: calc(16.66% - 20px);
-  display: flex;
-  align-items: center;
   justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
 }
 
-.logo-item img {
-  max-width: 100%;
-  height: auto;
-  filter: grayscale(80%);
-  transition: filter 0.3s ease;
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: gray;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
 
-.logo-item img:hover {
-  filter: grayscale(0%);
+.dot.active {
+  background-color: black;
 }
