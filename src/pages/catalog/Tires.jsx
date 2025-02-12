@@ -1,25 +1,28 @@
 import React from "react";
-import "./popularTires.css";
-import tire from '../../../assets/homePage/tires/summer-tires.png'
-import heart from '../../../assets/homePage/popular/heart.png'
+import "./Tires.css";
+import tire from '../../assets/homePage/tires/summer-tires.png'
+import heart from '../../assets/homePage/popular/heart.png'
+import CatalogPages from "./CatalogPages";
 
 const tires = [
   { id: 1, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "summer" },
   { id: 2, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
   { id: 3, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "summer" },
   { id: 4, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 5, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 6, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 7, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 8, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 9, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 10, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 11, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
+  { id: 12, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "winter" },
 ];
 
 const PopularTires = () => {
   return (
     <div className="popular-tires">
-      <h2 className="title">Популярные шины</h2>
-      <div className="tabs">
-        <span className="tab active">Автомобильные</span>
-        <span className="tab">Грузовые</span>
-        <span className="tab">Дорожно-строительные</span>
-        <span className="tab">Сельскохозяйственные</span>
-      </div>
+      
       <div className="tire-grid">
         {tires.map((tire) => (
           <div className="tire-card" key={tire.id}>
@@ -42,7 +45,7 @@ const PopularTires = () => {
           </div>
         ))}
       </div>
-      <button className="view-all">Посмотреть все шины</button>
+      <CatalogPages/>
     </div>
   );
 };

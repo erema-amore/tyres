@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+.card-tire {
+  display: flex;
+  flex-direction: column;
+  max-width: 1440px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: IBM Plex Sans;
+}
+
+.card-tire-header {
+  margin-bottom: 20px;
+}
+
+.tire-title {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 8px;
+  color: #1A1E29;
+}
+
+.tire-meta span {
+  margin-right: 10px;
+  color: #6A6A6A;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.card-tire-body {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.tire-image img {
+  width: 392px;
+  height: 392px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tire-info {
+  flex: 1;
+}
+
+.tire-info h3 {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.tire-info ul {
+  list-style: none;
+  padding: 0;
+  
+}
+
+.tire-info li {
+  margin-bottom: 5px;
+  margin: 16px;
+}
+
+.tire-info li strong{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.more-details {
+  color: #ff6600;
+  text-decoration: none;
+}
+
+.tire-purchase {
+  text-align: right;
+}
+
+.price {
+  margin-bottom: 10px;
+}
+
+.old-price {
+  text-decoration: line-through;
+  color: #FF7E00;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px
+}
+
+.new-price {
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 48px;
+  color: #1A1E29;
+}
+
+.price-desc {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #C4C4C4;
+}
+
+.size-tire {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #6A6A6A;
+}
+
+
+
+.number-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 250px;
+  padding: 16px;
+  box-sizing: border-box;
+}
+
+.number-input input {
+  flex: 1;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  appearance: textfield;
+}
+
+.number-input .controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number-input .controls button {
+  all: unset;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid transparent;
+  user-select: none;
+}
+
+.number-input .controls button:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.number-input .controls button:active {
+  background-color: #e0e0e0;
+}
+
+
+.add-to-cart {
+  background: #FF7E00;
+  color: #fff;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.add-to-cart:hover {
+  background: #e55d00;
+}
+
+.purchase-options p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
