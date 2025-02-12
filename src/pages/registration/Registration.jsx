@@ -9,8 +9,13 @@ import icon5 from '..//..//assets/registration/hide.png'
 
 const Registration = () => {
   return (
+<<<<<<< HEAD
+    <div className='headers'>
+      <div className='container'>
+=======
     <div className='main'>
       <div className='block'>
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
         <div className='box'>
 
         
@@ -23,6 +28,21 @@ const Registration = () => {
            <img src={icon3} alt="" />
            <img src={icon4} alt="" />
         </div>
+<<<<<<< HEAD
+        <div className='subHeadling'>
+        <h6>Зарегистрируйтесь с помощью электронной почты <br/><span>У вас уже есть учетная запись? <a href="#">Войти</a></span></h6>
+        </div>
+          <div className='inputIcon'>
+          <input type='text' placeholder='Адрес электронной почты'></input>
+          <div className='imputImg'>
+               <input type='text' placeholder='Пароль'></input>
+               <img className='img1' src={icon5} alt="icon" />
+
+               <input className='icon2' type='text' placeholder='Подтвердите Пароль'></input>
+               <img className='img2' src={icon5} alt="icon" />
+          </div>
+             <div className='buttonCl'>
+=======
         <div className='sub-headling'>
         <h6>Зарегистрируйтесь с помощью электронной почты <br/><span>У вас уже есть учетная запись? <a href="#">Войти</a></span></h6>
         </div>
@@ -36,6 +56,7 @@ const Registration = () => {
                <img className='hide' src={icon5} alt="icon" />
           </div>
              <div className='btn'>
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
                   <button>Зарегистрироваться</button>
 
              </div>

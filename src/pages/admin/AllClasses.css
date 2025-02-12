@@ -1,0 +1,149 @@
+* {
+    background-color: #262F56;
+    color: rgb(255, 255, 255);    
+}
+
+.txt {
+    margin: 50px auto 50px;
+    font-size: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 329px;
+    height: 84px ; 
+    top: 112px;
+    left: 555px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 83px ;
+    letter-spacing: 0%;
+}  
+
+.box {
+    margin: 0 auto 30px;
+    font: 700;
+    font-size: 40px;
+    line-height: 52px;
+    letter-spacing: 0%;
+    border: 3px solid #fff;
+    text-align: center;
+    width: 482px;
+    height: 113px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: #ffffff;
+    color: #262F56;
+}
+
+.box:active{
+    background-color: #8095f1;
+    color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #2c3e50;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    width: 400px;
+    background-color: #34495e;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    color: #fff;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #2c3e50;
+  }
+  
+  input:focus,
+  textarea:focus {
+    outline: none;
+    box-shadow: 0 0 5px #ecf0f1;
+  }
+  
+  textarea {
+    height: 80px;
+    resize: none;
+  }
+  
+  .upload-button {
+    background-color: transparent;
+    color: #f39c12;
+    border: none;
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 14px;
+  }
+  
+  .upload-button:hover {
+    color: #e67e22;
+  }
+  
+  .form-actions {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .save-button,
+  .reset-button {
+    width: 48%;
+    padding: 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .save-button {
+    background-color: #e67e22;
+    color: #fff;
+  }
+  
+  .save-button:hover {
+    background-color: #d35400;
+  }
+  
+  .reset-button {
+    background-color: #ecf0f1;
+    color: #2c3e50;
+  }
+  
+  .reset-button:hover {
+    background-color: #bdc3c7;
+  }
+  
