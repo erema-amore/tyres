@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
+
+
+
+.header{
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(26, 30, 41, 0.15);
+    width: 566px;
+    height: 480px;
+    margin-top: 179px;
+    border-radius: 10px;
+}
+/* .box2{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 372px;
+    height: 388px;
+    display: block;
+    margin-top: 38px;  
+} */
+.box2 h4{
+    margin-top: 38px;
+    font-size: 32px;
+    margin-bottom: 23px;
+    text-align: center
+    
+    
+}
+.box2 span{
+    align-items: start;
+    margin-top: 47px;
+    color: black;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-right: 55px;
+}
+
+.box2 a {
+    font-size: 14px;
+    color: rgb(255, 126, 0);
+    text-decoration: none;
+
+}
+
+.buttonBox{
+    width: 372px;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin-top: 21px;
+    gap: 33px;
+    
+}
+.buttonBox input{
+    background-color: #fff;
+    outline: none;
+    border: none;
+    height: 40px;
+    font-size: 14px;
+    text-align: start;
+    padding-left: 16px;
+}
+
+
+.open button {
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 126, 0);
+    margin-top: 35px;
+    padding: 12px 24px 12px 24px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 115px;
+    padding-right: 115px;
+    transform: translate(19%, 0%);
+
+}
+
+.open h5{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 32px;
+}
+
+.icons-container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+    width: 185px;
+    transform: translate(50%, 0%);
+    
+}
+.icons{
+    width: 25px;
+    height: 25px;
+    /* object-fit: contain; */
+    
+} 
+
+
+
+
+
+.inputIconY{
+    position: relative;
+    background-color: #fff  ;
+}
+
+
+.inputIconY img {
+    transform: translate(158px, 8px);
+    width: 24px;
+    height: 24px;
+}
