@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
+
+
+
+.main{
+    font-family: 'IBM Plex Sans', sans-serif;
+
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.leftSide{
+    width: 1440px;
+    height: 85px;
+    background-color: #1A1E29;
+    margin-top: 119px;
+}
+
+.goodsServices {
+    display: flex;
+    margin-top: 30px;
+    gap: 47px;
+    margin-left: 87px;
+}
+
+.goodsServices a {
+    color: #FF7E00;
+    font-size: 16px;
+    font-weight: 500;
+    
+    
+}
+
+.goodsServices a img {
+   
+    margin-top: 9px;
+}
+.goodsServices span img {
+    margin-top: 9px;
+}
+
+.goodsServices span {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/* .down {
+    margin-left: 130px;
+} */
+
+.mainIcon {
+      
+    display: flex;
+    justify-content: center;
+    transform: translate(0px,-60px);
+
+    
+}
+
+.menu {
+    transform: translate(875px,-147px);
+
+}
+.personalAccount{
+    color: #fff;
+   display: flex;
+   transform: translate(971px,-205px);
+
+   
+
+}
+
+.rightSide span img {
+    width: 8px;
+    height: 8px;
+    margin-left: 9px;
+    margin-top: 8px;
+}
+
+.heart {
+    transform: translate(1135px,-255px);
+
+
+}
+.groceryСart{
+    transform: translate(1140px,-255px);
+
+}
+

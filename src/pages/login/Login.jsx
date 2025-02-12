@@ -8,14 +8,14 @@ import icon5 from "../../assets/registration/visible.png"
 
 const Login = () => {
   return (
-    <div className='header'>
-    <div className='container'>
-      <div className='box2'>
+    <div className='main'>
+    <div className='block'>
+      <div className='box'>
           <h4>Вход</h4>
           <span>Новый пользаватель?<a href='#'> Создать учетную запись</a></span>
-          <div className='buttonBox'>
+          <div className='enter-login'>
             <input type='text' placeholder='Введите логин'></input>
-                <div className='inputIconY'>
+                <div className='input-icon'>
                      <input type='text' placeholder='Введите логин'></input>
                      <img src={icon5} alt="" /> 
                      {/* <i className='fa' aria-hidden="true"></i> */}
@@ -25,7 +25,7 @@ const Login = () => {
                 <button>Войти</button>
                 <h5>Войти с помащью</h5>
               </div>
-              <footer className='icons-container'>
+              <footer className='icons'>
                   <img src={icon1} alt="" className='icons' />
                   <img src={icon2} alt="" className='icons'/>
                   <img src={icon3} alt="" className='icons'/>
