@@ -1,6 +1,7 @@
 import React from "react";
 import "./popularTires.css";
 import tire from '../../../assets/homePage/tires/summer-tires.png'
+import heart from '../../../assets/homePage/popular/heart.png'
 
 const tires = [
   { id: 1, name: "Goodyear Vector 4Seasons", price: "5 600 С", img: tire, inStock: true, reviews: 2, rating: 4.5, season: "summer" },
@@ -35,7 +36,7 @@ const PopularTires = () => {
               <p className="status">{tire.inStock ? "В наличии" : "Нет в наличии"}</p>
               <div className="footer">
                 <button className="price">{tire.price}</button>
-                <button className="favorite">❤️</button>
+                <button className="favorite"><img src={heart} alt="heart" /></button>
               </div>
             </div>
           </div>

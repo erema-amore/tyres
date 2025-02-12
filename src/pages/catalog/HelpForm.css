@@ -1,0 +1,60 @@
+
+.help-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(90deg, #2a2ead, #6827f5);
+  color: white;
+  padding: 110px ;
+  position: relative;
+  overflow: hidden;
+}
+
+.help-form::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 50%;
+  height: 100%;
+  background: url("../../assets/catalog/helpForm/shutterstock_1464592451\ 1.jpeg") no-repeat center center;
+  background-size: cover;
+  opacity: 1;
+  -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+  mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.help-content {
+  max-width: 600px;
+  text-align: left;
+  position: relative;
+  z-index: 1;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.help-button {
+  padding: 12px 24px;
+  font-size: 18px;
+  color: orange;
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.help-button:hover {
+  background-color: #f5f5f5;
+}

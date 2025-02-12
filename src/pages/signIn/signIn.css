@@ -1,14 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
 
 
+<<<<<<< HEAD
 .header3{
+=======
+.main{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
     justify-content: center;
 
 }
 
+<<<<<<< HEAD
 .container3{
+=======
+.block{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     width: 566px;
     height: 573px;
     background-color: rgba(26, 30, 41, 0.15);
@@ -16,7 +24,11 @@
     border-radius: 10px;
 }
 
+<<<<<<< HEAD
 .title3 h3{
+=======
+.title h3{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     margin-bottom: 23px;
     margin-top: 38px;
     font-size: 32px;
@@ -24,7 +36,11 @@
     text-align: center;
 
 }
+<<<<<<< HEAD
 .title3 span {
+=======
+.title span {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     transform: translate(99px, 0px);
     gap: 5px;
@@ -34,7 +50,11 @@
 
     
 }
+<<<<<<< HEAD
 .title3 span a {
+=======
+.title span a {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     font-weight: 400;
     font-size: 14px;
     color: rgb(255, 126, 0);
@@ -44,7 +64,11 @@
     
 }
 
+<<<<<<< HEAD
 .input3 {
+=======
+.input {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     width: 370px;
     height: 40px;
     background-color: #fff;
@@ -55,24 +79,40 @@
 }
 
 
+<<<<<<< HEAD
 .inputError input{
+=======
+.input-error input{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
 
     width: 370px;
     height: 40px;
     background-color: #fff;
+<<<<<<< HEAD
     padding: 10px 259px 12px 16px;
+=======
+    padding: 10px 200px 12px 16px;
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     transform: translate(99px, 0px);
     margin-top: 33px ;
     border-radius: 5px;
     border: 1.6px solid red;
 }
 
+<<<<<<< HEAD
 .inputError img {
+=======
+.input-error img {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     transform: translate(52px, 41px);
 
 }
 
+<<<<<<< HEAD
 .inputError span {
+=======
+.input-error span {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     color: rgb(237, 24, 24);
     font-size: 14px;
@@ -86,7 +126,11 @@
     
 }
 
+<<<<<<< HEAD
 .button3 button {
+=======
+.button button {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     justify-content: center;
     width: 270px;
@@ -103,14 +147,22 @@
 
 
 }
+<<<<<<< HEAD
 .button3 h2 {
+=======
+.button h2 {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     font-size: 22px;
     font-weight: 500;
     transform: translate(190px, 0px);
     margin-top: 26px;
 }
 
+<<<<<<< HEAD
 .icon3 {
+=======
+.icons {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     justify-content: center;
     gap: 19px;
@@ -119,7 +171,11 @@
 
 }
 
+<<<<<<< HEAD
 .a1 {
+=======
+.reset-passworld {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     margin-top: 20px;
     transform: translate(99px, 0px);
@@ -128,7 +184,11 @@
     font-weight: 500;
 }
 
+<<<<<<< HEAD
 .a2 {
+=======
+.other-login {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     transform: translate(99px, 0px);
     color: rgb(255, 126, 0);
