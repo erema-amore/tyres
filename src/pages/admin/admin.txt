@@ -1,0 +1,24 @@
+
+const admin = () => {
+    return (<div>
+     <Router>
+      <Routes>
+        <Route path="/" element={<Admin />} />
+        <Route path="/add-product" element={<AddProduct />} />
+        <Route path="/add-news" element={<AddNews />} />
+        <Route path="/requests" element={<Requests />} />
+        <Route path="/stocks" element={<Stocks />} />
+      </Routes>
+    </Router>
+
+import {BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Admin from './pages/admin/Admin.jsx';
+import AddProduct from './pages/admin/AddProduct.jsx';
+import AddNews from './pages/admin/AddNews.jsx';
+import Requests from './pages/admin/Requests.jsx';
+import Stocks from './pages/admin/Stocks.jsx';
+<div/>
+)
+}
+
+export defoult admin
