@@ -2,13 +2,21 @@
 
 
 
+<<<<<<< HEAD
+.header{
+=======
 .main{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     font-family: 'IBM Plex Sans', sans-serif;
     display: flex;
     justify-content: center;
 }
 
+<<<<<<< HEAD
+.container{
+=======
 .block{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     display: flex;
     justify-content: center;
     background-color: rgba(26, 30, 41, 0.15);
@@ -26,7 +34,11 @@
     display: block;
     margin-top: 38px;  
 } */
+<<<<<<< HEAD
+.box2 h4{
+=======
 .box h4{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     margin-top: 38px;
     font-size: 32px;
     margin-bottom: 23px;
@@ -34,7 +46,11 @@
     
     
 }
+<<<<<<< HEAD
+.box2 span{
+=======
 .box span{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     align-items: start;
     margin-top: 47px;
     color: black;
@@ -43,14 +59,22 @@
     margin-right: 55px;
 }
 
+<<<<<<< HEAD
+.box2 a {
+=======
 .box a {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     font-size: 14px;
     color: rgb(255, 126, 0);
     text-decoration: none;
 
 }
 
+<<<<<<< HEAD
+.buttonBox{
+=======
 .enter-login{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     width: 372px;
     display: flex;
     flex-direction: column;
@@ -59,7 +83,11 @@
     gap: 33px;
     
 }
+<<<<<<< HEAD
+.buttonBox input{
+=======
 .enter-login input{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     background-color: #fff;
     outline: none;
     border: none;
@@ -90,7 +118,11 @@
     margin-top: 32px;
 }
 
+<<<<<<< HEAD
+.icons-container {
+=======
 .icons {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     align-items: center;
     display: flex;
     justify-content: space-between;
@@ -110,13 +142,21 @@
 
 
 
+<<<<<<< HEAD
+.inputIconY{
+=======
 .input-icon{
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     position: relative;
     background-color: #fff  ;
 }
 
 
+<<<<<<< HEAD
+.inputIconY img {
+=======
 .input-icon img {
+>>>>>>> a234df6f5280a183119c3737dd6aaf77d263d39d
     transform: translate(158px, 8px);
     width: 24px;
     height: 24px;
