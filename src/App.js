@@ -1,17 +1,20 @@
-import './App.css';
-import Cards from './pages/cards/Cards'
 
+import React from 'react';
 
 
 
 
 function App() {
   return (
-    <div className="App"> 
-    <Cards/>
 
+
+
+    <div className="App">
+       
     </div>
+
   );
 }
 
 export default App;
+

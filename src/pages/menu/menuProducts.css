@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
+
+.main{
+    font-family: 'IBM Plex Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.block {
+    width: 1340px;
+    height: 791px;
+    background-color: rgb(43, 49, 67);
+    margin-top: 8px;
+
+}
+
+
+
+.carTires {
+    width: 600px;
+    height: 112px;
+    border-bottom: 1px solid #3E465F;
+    margin-top: 140px;
+    margin-left: 58px;
+    
+
+}
+
+.title {
+    color: rgb(255, 133, 14);
+    font-size: 24px;
+    font-weight: 500;
+    transform: translate(120px);
+}
+
+.info {
+    color: #E5E5E5;
+    display: inline-block;
+    transform: translate(120px);
+    margin-top: 16px;
+}
+
+.dimensions{
+    color: #E5E5E5;
+    display: inline-block;
+    transform: translate(120px);
+    margin-top: 8px;
+}
+
+.carIcon {
+    display: inline-block;
+    transform: translate(-255px, -50px);
+ 
+}
+
+
+
+.cargoTruck{
+    width: 600px;
+    height: 112px;
+    border-bottom: 1px solid #3E465F;
+    margin-top: 27px;
+    margin-left: 58px;
+
+}
+
+.truckTires{
+    color: rgb(255, 133, 14);
+    font-size: 24px;
+    font-weight: 500;
+    transform: translate(120px);
+
+}
+
+.truck{
+    display: inline-block;
+    transform: translate(-185px, -50px);
+
+}
+
+.tractor{
+    width: 600px;
+    height: 112px;
+    border-bottom: 1px solid #3E465F;
+    margin-top: 27px;
+    margin-left: 58px;
+}
+
+.agriculturalTires{
+    color: rgb(255, 133, 14);
+    font-size: 24px;
+    font-weight: 500;
+    transform: translate(120px);
+
+}
+
+.tractorIcon {
+    display: inline-block;
+    transform: translate(-170px, -60px);
+
+}
+
+.excavator{
+    width: 600px;
+    height: 112px;
+    border-bottom: 1px solid #3E465F;
+    margin-top: 27px;
+    margin-left: 58px;
+
+}
+
+
+.exovatorIcon{
+    display: inline-block;
+    transform: translate(-170px, -60px);
+}
+
+
+
+.carAccessories {
+    width: 492px;
+    height: 384px;
+    transform: translate(790px, -535px);
+
+
+}
+
+.box {
+    border-bottom: 1.2px solid #3E465F;
+    text-align: start;
+    padding: 12px 16px 12px 16px;
+
+}
+
+.box span {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
