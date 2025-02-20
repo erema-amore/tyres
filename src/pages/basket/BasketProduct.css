@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+.basket-product {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 808px;
+  padding: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  background: #fff;
+  font-family: "IBM Plex Sans", serif;
+}
+
+.product-image img {
+  width: 80px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.product-info {
+  flex-grow: 1;
+  margin-left: 16px;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+  margin-bottom: 4px;
+}
+
+.product-code {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #6A6A6A;
+  margin-bottom: 16px;
+}
+
+.availability {
+  display: flex;
+  gap: 4px;
+  margin-bottom: 16px;
+
+}
+
+.availability-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #1A1E29;
+  
+}
+
+.delivery-text {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.delivery a {
+  display: flex;
+  
+  color: blue;
+  text-decoration: underline;
+}
+
+.midle-block {
+  display: flex;
+  gap: 16px;
+}
+
+
+
+.number-input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  max-width:  100px;
+  box-sizing: border-box;
+  
+}
+
+.number-input input {
+  flex: 1;
+  border: none;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  appearance: textfield;
+  min-width: 10px; 
+  box-sizing: border-box;
+}
+
+.number-input .controls {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.number-input .controls button {
+  all: unset;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 14px;
+  color: #333;
+  border: 1px solid transparent;
+  user-select: none;
+}
+
+.number-input .controls button:hover {
+  background-color: #f0f0f0;
+  border-color: #ccc;
+}
+
+.number-input .controls button:active {
+  background-color: #e0e0e0;
+}
+
+.product-quantity input {
+  width: 50px;
+  text-align: center;
+  padding: 4px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.remove-product {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  color: red;
+}

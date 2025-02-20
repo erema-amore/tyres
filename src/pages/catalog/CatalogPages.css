@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 .pagination {
   display: flex;
   align-items: center;
   gap: 10px;
+  font-family: "IBM Plex Sans", serif;
 }
 
 .page-item {
