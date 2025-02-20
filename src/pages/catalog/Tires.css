@@ -1,8 +1,9 @@
-
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 .tire-catalog {
   display: flex;
   gap: 20px;
+  font-family: "IBM Plex Sans", serif;
 }
 
 .filters {
@@ -45,7 +46,7 @@
   border-radius: 50%;
 }
 
-.buy-button {@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 
   .popular-tires {
     max-width: 1440px;
@@ -212,10 +213,4 @@
     background-color: #e55a00;
   }
   
-  background: orange;
-  border: none;
-  padding: 10px;
-  color: white;
-  cursor: pointer;
-  border-radius: 5px;
-}
+ 

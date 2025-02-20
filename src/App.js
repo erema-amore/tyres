@@ -1,6 +1,5 @@
-
 import './App.css';
-
+import Cards from './pages/cards/Cards'
 
 
 
@@ -8,7 +7,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App"> 
+    <Cards/>
 
     </div>
   );

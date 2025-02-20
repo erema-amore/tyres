@@ -1,8 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 .they-trust-us {
   max-width: 1440px;
   margin: 0 auto;
   padding: 40px 20px;
   text-align: center;
+  font-family: "IBM Plex Sans", serif;
 }
 
 .title {
