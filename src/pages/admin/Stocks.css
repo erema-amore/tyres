@@ -1,0 +1,86 @@
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83px;
+}
+
+.creat {
+    display: flex;
+    margin-left: 435px;
+    gap: 50px;
+    
+
+}
+
+
+.boxone input{
+    width: 569px;
+    height: 59px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+}
+
+#description {
+    width: 569px;
+    height: 257px;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 60px;
+
+}
+
+
+
+
+.boxtwo {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+
+.img {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.upload-btn {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.gallery {
+    margin: 292px 0px;
+}
+
+
+
+.stats {
+    margin: 0px 1250px;
+}
+
+.save button {
+    background-color: #FF7E00;
+    width: 249px;
+    height: 41px;
+
+}
+
+.reset button {
+    background-color: #fff;
+    width: 249px;
+    height: 41px;
+    color: #FF7E00;
+    margin-top: 7px;
+}

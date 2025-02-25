@@ -1,9 +1,11 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import admin from './admin.txt'
 import AddNews from './AddNews.jsx';
 import AddProduct from './AddProduct.jsx';
 import Requests from './Requests.jsx';
 import Stocks from './Stocks.jsx';
+import classes from './Admin.css'
 
 const Admin = () => {
   return (
