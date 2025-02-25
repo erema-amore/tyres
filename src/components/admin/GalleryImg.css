@@ -1,0 +1,21 @@
+.img {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.upload-btn {
+    color: orange;
+    font-size: 18px;
+    font-weight: bold; 
+     cursor: pointer; 
+     background: none; 
+    border: none;
+    padding: 0;
+    margin: 0;
+    display: inline;
+}
+
+.gallery {
+    margin: 292px 0px;
+}

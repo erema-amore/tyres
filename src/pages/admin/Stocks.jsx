@@ -1,5 +1,7 @@
 import React from "react";
 import './Stocks.css'
+import SaveButtun from "../../components/admin/SaveButtun";
+import GalleryImg from '../../components/admin/GalleryImg'
 
 
 export default function PromotionsForm() {
@@ -20,26 +22,10 @@ export default function PromotionsForm() {
             </div>
           </div>
           <div className="boxtwo">
-            <div className="img">
-            <div>  <label>Фото шины</label> </div>
-            <div>  <label htmlFor="upload" className="upload-btn">+ добавить картинку</label>
-            <input type="file" id="upload" hidden /> </div>
-            </div>
-            <div className="gallery">
-                <div><label>Галерея</label> </div>
-                <div> <label htmlFor="upload" className="upload-btn">+ добавить картинку</label>
-                <input type="file" id="upload" hidden /> </div>
-            </div>
+            <GalleryImg/>
           </div>
         </div>
-        <div className="stats">
-          <div className="save">
-          <button type="submit">Сохранить</button>
-          </div>
-          <div className="reset">
-          <button type="reset">Сбросить</button>
-          </div>
-        </div>
+        <div className="stats"><SaveButtun/></div>
       </form>
     </div>
   );
