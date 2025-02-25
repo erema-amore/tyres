@@ -1,0 +1,18 @@
+h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 83px;
+    display: flex;
+    justify-content: center;
+}
+
+.table {
+    display: flex;
+    justify-content: center;
+    border-collapse: 1px #AEAEAE;
+}
+
+.buttun {
+    display: flex;
+    justify-content: center;
+}

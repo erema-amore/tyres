@@ -1,0 +1,14 @@
+.save button {
+    background-color: #FF7E00;
+    width: 249px;
+    height: 41px;
+
+}
+
+.reset button {
+    background-color: #fff;
+    width: 249px;
+    height: 41px;
+    color: #FF7E00;
+    margin-top: 7px;
+}

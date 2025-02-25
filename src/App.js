@@ -1,9 +1,6 @@
-import react from 'react';
+
 import './App.css';
-import MenuCompany from './pages/menu/MenuCompany';
-// import MenuServices from './pages/menu/MenuServices'
-
-
+import React from 'react';
 
 
 
@@ -13,8 +10,11 @@ import MenuCompany from './pages/menu/MenuCompany';
 function App() {
   return (
 
+    <div>
+       
+    </div>
 
-       {/* <MenuServices/> */}
+
   );
 }
 
