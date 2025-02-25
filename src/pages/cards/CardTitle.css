@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
 .card-title {
   width: 100%;
-  max-width: 1000px;
+  max-width: 1440px;
   margin: 20px auto;
-  font-family: 'Arial', sans-serif;
+  font-family: "IBM Plex Sans", serif;
 }
 
 .tabs {
@@ -13,19 +15,22 @@
 .tab {
   padding: 10px 20px;
   cursor: pointer;
-  color: #555;
+  color: #4C65BD;
   border-bottom: 2px solid transparent;
   transition: all 0.3s ease;
 }
 
 .tab:hover {
-  color: #ff6600;
+  color: #FF7E00;
 }
 
 .tab.active {
-  color: #ff6600;
+  color: #FF7E00;
   font-weight: bold;
-  border-bottom: 2px solid #ff6600;
+  border-bottom: 2px solid #FF7E00;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
 }
 
 .tab-content {
@@ -36,16 +41,29 @@
   border-radius: 0 0 8px 8px;
 }
 
+.content-dsc {
+  width: 1440px;
+  display: flex;
+  gap: 20px;
+}
+
+
 .content h2 {
   font-size: 20px;
   margin-bottom: 10px;
-  color: #333;
+  color: #1A1E29;
 }
 
 .content p {
+  flex: 1;
+  max-width: 1440px;
+  height: 144px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
   margin-bottom: 10px;
   line-height: 1.6;
-  color: #555;
+  color: #6A6A6A;
 }
 
 .content strong {

@@ -19,20 +19,55 @@
     width: 1340px;
     height: 448px;
     background-color: rgb(43, 49, 67);
-   
-
 }
 
+.box {
+    display: flex;
+    justify-content: space-between;
+}
 
 .aboutTheCompany{
     width: 492px;
     height: 288px;
-    border: 2px solid red;
+    
+    margin-top: 112px;
+    margin-left: 58px;
 }
 
 .payment{
     width: 492px;
     height: 240px;
-    border: 2px solid red;
 }
 
+
+.linkText {
+    display: flex;
+    width: 492px;
+    height: 48px;
+    border-bottom: 1.2px solid #3E465F;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    padding: 12px;
+    padding-left: 16px;
+}
+
+.payment {
+    margin-top: 112px;
+    margin-right: 58px;
+}
+
+
+
+.paymentInformation{
+    width: 492px;
+    height: 48px;
+    display: flex;
+    font-size: 16px;
+    font-weight: 500;
+    color: rgb(255, 255, 255); 
+    padding: 12px;
+    padding-left: 16px;
+    border-bottom: 1.2px solid #3E465F;
+    
+}
