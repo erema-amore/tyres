@@ -1,92 +1,97 @@
+*{
+    box-sizing: border-box
+}
+
+
+
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Inter:wght@100..900&display=swap');
-
-
 
 .main{
     font-family: 'IBM Plex Sans', sans-serif;
-
     display: flex;
     justify-content: center;
 }
 
-
-
-.leftSide{
+.block{
     width: 1440px;
     height: 85px;
-    background-color: #1A1E29;
+    background-color: rgb(26, 30, 41);
     margin-top: 119px;
 }
 
-.goodsServices {
+.box {
     display: flex;
+    justify-content: space-between;
+}
+
+.goods{
+    color: rgb(255, 126, 0);
+    font-size: 16px;
+    font-weight: 500;
+    display: inline-block;
     margin-top: 30px;
-    gap: 47px;
     margin-left: 87px;
 }
 
-.goodsServices a {
-    color: #FF7E00;
-    font-size: 16px;
-    font-weight: 500;
-    
-    
+.vector {
+    margin-top: 39px;
+    margin-left: 8px;
 }
-
-.goodsServices a img {
-   
-    margin-top: 9px;
-}
-.goodsServices span img {
-    margin-top: 9px;
-}
-
-.goodsServices span {
+.services{
     color: #fff;
+    margin-left: 47px;
     font-size: 16px;
     font-weight: 500;
 }
 
-/* .down {
+.downArrow {
+    margin-top: 39px;
+    margin-left: 5px;
+}
+
+
+.arrow{
+    margin-top: 39px;
     margin-left: 130px;
-} */
-
-.mainIcon {
-      
-    display: flex;
-    justify-content: center;
-    transform: translate(0px,-60px);
-
-    
 }
 
-.menu {
-    transform: translate(875px,-147px);
+.leftSide {
+    width: 680px;
+    height: 85px;
+}
+
+.rightSide {
+    width: 671px;
+    height: 85px;
 
 }
+
+.titleIcon {
+    transform: translate(0px, -10px);
+}
+
+
+
+
+.magnifyingGlass{
+    margin-left: 106px;
+}
+
 .personalAccount{
+    margin-left: 16px;
+    display: inline-block;
+    margin-top: 30px;
     color: #fff;
-   display: flex;
-   transform: translate(971px,-205px);
-
-   
-
 }
 
-.rightSide span img {
-    width: 8px;
-    height: 8px;
-    margin-left: 9px;
-    margin-top: 8px;
+.arrowToo {
+    margin-top: 38px;
+    margin-left: 5px;
 }
 
-.heart {
-    transform: translate(1135px,-255px);
-
-
-}
-.groceryСart{
-    transform: translate(1140px,-255px);
-
+.icpnLov {
+    width: 80px;
+    height: 80px;
+    margin-left: 30px;
 }
 

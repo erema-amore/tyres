@@ -11,44 +11,52 @@ function MenuServices() {
     return (
         <div className="main">
             <div className="block">
-                <div className="leftSide">
-                    <div className="tireFitting">
-                        <h4>Шиномантаж</h4>
-                        <img className="Kaliso" src={subtract} alt="" />
-                        <img className="timeIcon" src={time} alt="" />
-                        <span id="operatingMode">Ежыдневно с 9:00 до 21:00, без перерывов</span>
-                        <img className="ruble" src={valuta} alt="p" />
-                        <span className="price">от 500 ₽</span>
+                <div className="box">
+                    <div className="tooStr">
 
-                 <div className="container">
-                         <h4>Ремонт и правка дисков</h4>
-                         <img className="Kaliso" src={disk} alt="" />
-                         <img className="timeIcon" src={time} alt="" />
-                         <span id="operatingMode">Ежыдневно с 9:00 до 21:00, без перерывов</span>
-                         <img className="ruble" src={valuta} alt="p" />
-                         <span className="price">от 500 ₽</span>
-                 </div>
-                       
+                    
+                     <div className="leftSide">
+                        <div className="tireFitting">
+                              <div className="icon">
+                                <img src={subtract} alt="" />
+                              </div>
+                              <div className="infoText">
+                                   <h4 className="title">Шиномантаж</h4>
+                                   <img className="time" src={time} alt="" />
+                                   <span className="operatingMode">Ужыдневно с 9:00 до 21:00, без перерывов</span>
+                                 <div className="boxToo">
+                                    <img className='ruble' src={valuta} alt="" />
+                                    <span className="price">от 500 ₽</span>
+                                 </div>
+                              </div>
+                        </div>
+                     </div>
+                     <div className="leftSideToo">
+                        <div className="tireFitting">
+                              <div className="icon">
+                                <img src={disk} alt="" />
+                              </div>
+                              <div className="infoText">
+                                   <h4 className="title">Ремонт и правка дисков</h4>
+                                   <img className="time" src={time} alt="" />
+                                   <span className="operatingMode">Ужыдневно с 9:00 до 21:00, без перерывов</span>
+                                 <div className="boxToo">
+                                    <img className='ruble' src={valuta} alt="" />
+                                    <span className="price">от 500 ₽</span>
+                                 </div>
+                              </div>
+                        </div>
+                     </div>
                     </div>
+                     
+                     
+                     <div className="rightSide">
+                         <span>Ошиповка зимних шин</span>
+                         <span>Сезонное хронение шин</span>
+                         <span>Сход развал</span>
+                     </div>
+
                 </div>
-
-
-
-                <div className="rightSide">
-                    <div className="info">
-                        <div className="menu">
-                            <span>Ошиповка зимних шин</span>
-                        </div>
-                        <div className="menu">
-                            <span>Сезонное хронение шин</span>
-                        </div>
-                        <div className="menu">
-                            <span>Сход развал</span>
-                        </div>
-                
-                    </div>
-                </div>
-                
             </div>
         </div>
     )
