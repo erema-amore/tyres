@@ -1,9 +1,14 @@
 import React from 'react';
-import './menuProducts.css'
-import cars from '..//..//assets/registration/cars1.png'
-import truck from '..//..//assets/registration/Vector (2).png'
-import tracto from '..//..//assets/registration/Icon (1).png'
-import exovator from '..//..//assets/registration/exovator.png'
+import classes from './menuProducts.css'
+
+
+
+
+
+import cars from '..//..//..//assets/registration/cars1.png'
+import truck from '..//..//..//assets/registration/Vector (2).png'
+import tracto from '..//..//..//assets/registration/Icon (1).png'
+import exovator from '..//..//..//assets/registration/exovator.png'
 
 
 function MyComponent() {
@@ -29,7 +34,7 @@ function MyComponent() {
                  </div>
                  <div className='text'>
                         <h1 className='titleText'>Грузовые шины</h1>
-                        <span className='types'>Ведущие Универсальные Рулевые Прицеп Рулевые + прицеа</span>
+                        <span className='types'>Ведущие Универсальные Рулевые Прицеп Рулевые + прицеп</span>
                         <span className='size'>R22,5 R24 R21 R20 R19,5</span>
                  </div>
               </div>

@@ -1,9 +1,10 @@
 import react from 'react';
 import './App.css';
-import MenuCompany from './pages/menu/MenuCompany';
-// import MenuServices from './pages/menu/MenuServices'
 
 
+
+
+  
 
 
 
@@ -12,9 +13,12 @@ import MenuCompany from './pages/menu/MenuCompany';
 
 function App() {
   return (
+    <div className='App'>
+
+    </div>
 
 
-       {/* <MenuServices/> */}
+   
   );
 }
 

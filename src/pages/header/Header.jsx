@@ -12,7 +12,9 @@ const Header = () => {
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-item dropdown">Товары</li>
-          <li className="nav-item dropdown">Услуги</li>
+          <a href="src/pages/menu/MenuServices.jsx" >
+            <li className="nav-item dropdown">Услуги</li>
+            </a>
           <li className="nav-item dropdown">Компания</li>
         </ul>
         <div className="logo">
